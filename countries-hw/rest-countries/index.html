@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h3>List of Countries</h3>
+      <div>
+        <input id="search" type="text" placeholder="Search..." />
+      </div>
+    </header>
+    <section>
+      <div class="left side-btns">
+        <i id="previous" class="fa fa-arrow-left"></i>
+      </div>
+      <div class="middle fade">
+        <div id="spinner">
+          <i class="fa fa-spinner fa-spin"></i>
+        </div>
+        <div id="info">
+          <!-- <img src="https://flagcdn.com/w320/bf.png" alt="" />
+          <p>Country: <strong>Burkina Faso</strong></p>
+          <p>Population: <strong>20903278</strong></p>
+          <p>Capital city: <strong>Ouagadougou</strong></p>
+          <p>Region: <strong>Africa</strong></p> -->
+        </div>
+      </div>
+      <div class="right side-btns">
+        <i id="next" class="fa fa-arrow-right"></i>
+      </div>
+    </section>
+    <main>
+      <!-- <div id="1">
+        <p><strong>Burkina Faso</strong></p>
+        <img src="https://flagcdn.com/w320/bf.png" alt="" />
+      </div> -->
+      <p>Loading...</p>
+    </main>
+<!-- homework -->
+    <div class="wrapper">
+      <table>
+        <tr>
+          <th>Actions</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Total Population</td>
+          <td class="population">Number</td>
+        </tr>
+        <tr>
+          <td># of independent countries</td>
+          <td class="indepCountries">Number</td>
+        </tr>
+        <tr>
+          <td>Population of the country with ccn3: 275</td>
+          <td>Number</td>
+        </tr>
+        <tr>
+          <td># of countries that have more than 2 capital cities</td>
+          <td>Number</td>
+        </tr>
+        <tr>
+          <td>Index of country Liberia inside countries array</td>
+          <td>Number</td>
+        </tr>
+        <tr>
+          <td>Country that has max Population</td>
+          <td>Name</td>
+        </tr>
+        <tr>
+          <td>Frequency count of all countries for each continents</td>
+          <td>Object</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

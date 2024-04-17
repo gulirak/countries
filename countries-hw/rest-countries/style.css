@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header > h3 {
+  border-bottom: 1px solid rgb(202, 200, 200);
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+header > div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input#search {
+  width: 30%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+section {
+  display: flex;
+  width: 600px;
+  margin: auto;
+}
+
+section div {
+  border: 1px solid rgb(202, 200, 200);
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div.side-btns {
+  width: 20%;
+}
+
+section div.side-btns:hover {
+  background-color: rgb(251, 249, 249);
+}
+
+section div.side-btns i {
+  cursor: pointer;
+  font-size: 60px;
+  color: rgb(51, 165, 199);
+}
+
+section div.side-btns i:hover {
+  color: rgb(40, 187, 232);
+}
+
+section div.middle {
+  width: 80%;
+}
+
+section div.middle div#spinner {
+  font-size: 60px;
+  color: rgb(51, 165, 199);
+  border: none;
+}
+
+section div.middle div#info {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  text-align: center;
+}
+
+section div.middle div#info > img {
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+section div.middle div#info > p {
+  font-size: 14px;
+  margin: 0;
+}
+
+section div.left {
+  border-right: 0;
+}
+
+section div.right {
+  border-left: 0;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid rgb(202, 200, 200);
+  margin-top: 10px;
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  font-size: 10px;
+  border: 1px solid rgb(202, 200, 200);
+  padding: 2px;
+  margin: 2px;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}
+
+main div p {
+  margin: 0;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.selected {
+  box-shadow: 2px 2px 10px 10px #a4f0a4;
+}
+
+#exercise {
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgb(51, 165, 199);
+  color: white;
+}
+
+.exercise-section {
+  display: none;
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.parent {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* homework */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
